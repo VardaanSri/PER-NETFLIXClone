@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+:root {
+    --primary-color: rgb(80, 79, 79);
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    /* border-bottom: 9px solid var(--primary-color); */
+}
+
+nav {
+    max-width: 60vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-top: 15px;
+    position: relative;
+    z-index: 10;
+    color: red;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.mainText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    gap: 25px;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.mainText> :first-child {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.sign:hover {
+    background-color: rgb(193, 17, 25);
+    color: white;
+}
+
+.sign {
+    transition: all 0.6s ease-out;
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    border-radius: 3px;
+    padding: 1px;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.MainEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnStar:hover {
+    background-color: rgb(193, 17, 25);
+    color: white;
+}
+
+.btnStar {
+    transition: all 0.6s ease-out;
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    border-radius: 3px;
+    padding: 1px;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.inp {
+    height: 47px;
+    width: 300px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    filter: alpha;
+    background: fixed;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+::placeholder {
+    color: rgb(220, 213, 213);
+}
+
+.LangBtn {
+    padding: 1px;
+    width: 100px;
+    border: 3px solid white;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    filter: alpha;
+    background: fixed;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.first {
+    display: flex;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 20px;
+    padding-bottom: 146px;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    right: -144px;
+    bottom: -89px;
+}
+
+.secImg video {
+    position: relative;
+    top: -278px;
+    right: -217px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.sep {
+    top: -77px;
+    height: 10px;
+    height: 10px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.second {
+    max-width: 90vw;
+}
+
+.secImg2 {
+    position: relative;
+    top: -136px;
+    padding: 49px;
+}
+
+.secImg3 video {
+    position: relative;
+    top: -456px;
+    right: -111px;
+}
+
+.secImg3 img {
+    position: relative;
+    z-index: 10;
+}
+
+.secImgVid3 {
+    width: 400px;
+}
+
+.fourth {
+    max-width: 90vw;
+}
+
+.secImg4 {
+    position: relative;
+    bottom: 57px;
+    right: -1px;
+    padding: 34px;
+}
+
+.sep2 {
+    top: -160px;
+    height: 10px;
+    height: 10px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.faq {
+    color: white;
+    max-width: 80vw;
+    margin: -8px;
+    position: relative;
+    right: -145px;
+    gap: 10px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox {
+    transition: all 0.6s ease-out;
+    background-color: #2d2d2d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    max-width: 80vw;
+    height: 45px;
+    font-size: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sep3 {
+    top: 76px;
+    height: 10px;
+    height: 10px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.lastmain {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+footer{
+    position: relative;
+    padding: 123px;
+    gap: 5px;
+}
+
+.questions{
+    color: rgb(168, 167, 167);
+    font-size: 14px;
+    position: relative;
+    bottom: 13px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    padding: 5px;
+}
+
+.footer a{
+    color: rgb(168, 167, 167);
+}
+
+.sep4 {
+    top: -122px;
+    height: 10px;
+    height: 10px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
